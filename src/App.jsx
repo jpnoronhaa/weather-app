@@ -1,7 +1,18 @@
+import React from 'react';
+// import data from './data.json';
+
 function App() {
   return (
-    <div>
-      <h1>Weather App</h1>
+    <div className="app">
+      <main>
+        <div className="search-box">
+          <input
+            type="text"
+            className="search-bar"
+            placeholder="Pesquisar..."
+          />
+        </div>
+      </main>
     </div>
   );
 }
